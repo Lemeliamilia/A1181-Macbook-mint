@@ -3,8 +3,9 @@ Getting Linux Mint to work on an a1181 MacBook 2,1
 This is a project I started in my free time so if it's a little unpolished my apologies.
 The first step I recommend if you haven't done it already is to disassemble the system and do some routine maintenance and install of an SSD.
 These systems are nearing twenty years old as of writing so some new thermal paste and a cleaning of the fans is appreciated. Guides can be found on the Ifixit website. 
-For the actual Linux install, I used https://mattgadient.com/linux-dvd-images-and-how-to-for-32-bit-efi-macs-late-2006-models/
-to procure an install ISO. I used the Mint 22 XFCE. You can use ImgBurn to then burn the contents of the ISO onto a external dvd.
+The actual Linux install is a bit tricky. These old macs use a 64bit processor but only have a 32bit EFI. You could install a 32bit linux, 
+or you can ues https://mattgadient.com/linux-dvd-images-and-how-to-for-32-bit-efi-macs-late-2006-models/
+to procure a 64bit Linux install ISO that works even with the 32bit efi. I used the Mint 22 XFCE. You can use ImgBurn to then burn the contents of the ISO onto a external dvd.
 Burning at a speed of x4 or lower is reccomended as it will reduce the chance of file corruption
 
 Once the install dvd has been created insert it into the mac, then press and hold the option(alt) key. 
