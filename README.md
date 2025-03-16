@@ -15,4 +15,9 @@ If you chose to boot into linux there should be a desktop icon that says somethi
 Clicking on that icon will bring you to a menu that will allow you to pick your options for installation and how you choose to partition your drive.
 If from that point your computer starts and you boot into linux then YAY! If not like me you may need to go another route.
 
-If you are greeted with the entire screen turning into a terminal I force shut off the computer. 
+If you are greeted with the entire screen turning into a terminal hold the power button to force shut it off. 
+Turn on the computer again while holding option(alt), and then boot to efi 
+This should bring you to a window with several options for boot. I used safeboot to finally get to the desktop of Linux.
+Once in linux from safeboot I reccomend letting it load and following the setup procedures and you should be set!
+
+(Note if your aspect ratio looks weird after your first boot, restart the computer from in linux and when you load back in the graphics driver should install properly)
